@@ -15,8 +15,10 @@ a {
     color: black;
 }
 .main {
-    background: url(./Assets/img1.avif)  100% 100%;
+    background: url(./Assets/img1.avif);
+    background-size: 100% 100%;
     height: 100vh;
+    width: 100vw;
     background-attachment: fixed;
     display: flex;
     align-items: center;
@@ -64,8 +66,10 @@ a {
     font-weight: 500;
 }
 .sec-2 {
-    background: url(./Assets/img3.avif) 100% 100%;
+    background: url(./Assets/img3.avif);
+    background-size: 100% 100%;
     height: 100vh;
+    width: 100vw;
     background-attachment: scroll;
     display: flex;
     align-items: center;
@@ -89,7 +93,9 @@ a {
     border-radius: 1rem;
 }
 .sec-3 {
-    background: url(./Assets/img1.avif) 100% 100%;
+    background: url(./Assets/img1.avif);
+    background-size: 100% 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
