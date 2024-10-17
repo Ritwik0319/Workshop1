@@ -7,7 +7,7 @@ html {
     overflow-x: hidden;
     font-family: "Caveat", cursive;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
 }
 a {
@@ -42,6 +42,7 @@ a {
 .main-c img {
     height: 50vh;
     border-radius: 1rem;
+    margin: 0 1rem ;
 }
 .main-c {
     background-color: rgba(255, 255, 255,.8);
@@ -75,6 +76,7 @@ a {
 .main-c2 img {
     height: 50vh;
     border-radius: 1rem;
+    margin: 0 1rem ;
 }
 .main-c2 {
     background-color: rgba(255, 255, 255,.8);
@@ -100,4 +102,18 @@ footer {
     color: white;
     padding: 2rem;
 
+}
+@media screen and (width<=768px) {
+    .main-c, .main-c2 {
+        display: block;
+        text-align: center;
+    }
+    .main-c img {
+        height: 50%;
+        margin: 2rem auto;
+    }
+    .main-c2 img {
+        height: 50%;
+        margin: 2rem auto;
+    }
 }
