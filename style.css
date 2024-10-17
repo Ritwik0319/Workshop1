@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    overflow-x: hidden;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.main {
+    background: url(./Assets/img1.avif)  100% 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+.main-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+.m-title {
+    font-size: 2rem;
+    padding: 2%;
+    font-weight: 900;
+}
+.main-b a {
+    padding-left: 2%;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.main-c img {
+    height: 50vh;
+    border-radius: 1rem;
+}
+.main-c {
+    background-color: rgba(255, 255, 255,.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+.main-c1-title {
+    font-size: 2rem;
+    padding: 5%;
+}
+.main-c1-disc {
+    padding: 0 5%;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.sec-2 {
+    background: url(./Assets/img3.avif) 100% 100%;
+    height: 100vh;
+    background-attachment: scroll;
+    display: flex;
+    align-items: center;
+}
+.main-c2 {
+    display: flex;
+}
+.main-c2 img {
+    height: 50vh;
+    border-radius: 1rem;
+}
+.main-c2 {
+    background-color: rgba(255, 255, 255,.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+.sec-3 {
+    background: url(./Assets/img1.avif) 100% 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+}
+footer {
+    height: 10vh;
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 2rem;
+
+}
